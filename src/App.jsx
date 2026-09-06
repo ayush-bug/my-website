@@ -1,3 +1,5 @@
+import Lanyard from "./components/Lanyard"; 
+import WebThreads from "./components/WebThreads";
 function App(){
   return(
     <main className="protfolio">
@@ -9,10 +11,19 @@ function App(){
           <a href="#contact">Contact</a>
         </div>
       </nav>
-
      <section className="hero">
+      <div className="hero-threads">
+        <WebThreads/>
+      </div>
+          <div className="name-idcard">
+          <div className="glass-text">
           <p className="eyebrow">web.game.iot.embedded</p>
          <h1>Ayush <br /> <span>Kushwaha</span></h1>
+              </div>
+              <div className="idcard">
+     <Lanyard/>
+  </div>
+  </div>
             <div className="hero-button">
               <p>I built websites <br /> hardware , iot</p>
            
@@ -20,6 +31,7 @@ function App(){
               scroll to explore
             </a>
              </div>
+           
      </section>
    <section id="work" className="placeholder-section">
     <span>01</span>
