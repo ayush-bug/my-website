@@ -220,3 +220,70 @@ box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);}
 .about-float{
  font-weight: bolder;
 }
+.skills-content{
+  width: 100%;
+  margin-top: 80px;
+}
+
+.skill-item{
+  width: 100%;
+  padding: 28px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  border-top: 1px solid #222;
+  transition: padding-left 0.3s ease;
+}
+.skill-item:last-child{
+  border-bottom: 1px solid #222;
+}
+.skill-item > span{
+  min-width: 30px;
+  color: #555;
+  font-family: monospace;
+  font-size: 11px;
+}
+.skill-item h3{
+  margin: 0 0 8px;
+  font-size: clamp(1.5rem,3vw,2.8rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+.skill-item p{
+  margin: 0;
+  color: #666;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.skill-item:hover{
+  padding-left: 20px;
+}
+.skill-item:hover h3{
+  color: #fff;
+}
+.skill-item:hover > span{
+  color:#aaa;
+}
+
+.skill{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  margin: 18px 0px;
+}
+.skill-name{
+  width: 50px;
+  font-family: monospace;
+  font-size: 15px;
+}
+.skill-progress{
+  flex: 1;
+  height: 3px;
+  background-color: #292929;
+  overflow: hidden;
+}
+.skill-progress-fill{
+  height: 100%;
+  background-color: #fff;
+}
