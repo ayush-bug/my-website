@@ -454,3 +454,79 @@ font-family:  Consolas, "Andale Mono", "Lucida Console", Monaco, "Courier New", 
   border-radius: 5px;
   font-family: monospace;
 }
+
+
+footer{
+  padding: 80px 8vw 30px;
+  border-top: 1px solid #222222;
+  background: #080808;
+}
+.footer-grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr;
+  gap: 60px;
+  padding-bottom: 60px;
+}
+.footer h3{
+  margin: 0 0 12px;
+  color: #f5f5f5;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer h4{
+  margin-bottom: 18px;
+  color: #f5f5f5;
+  font-size: x-large;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.footer p{
+  color: #ffffff;
+}
+.footer a{
+  display: block;
+  transition: color 0.25s ease;
+}
+.footer a:hover{
+  color: #ffffff;
+}
+.footer-connect{
+  display: flex;
+  gap: 8px;
+  margin-top: 25px;
+}
+.footer-connect a{
+  width: 36px;
+  height: 36px;
+    padding: 5px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #292929;
+  border-radius: 6px;
+  color: #888888;
+  font-family: monospace;
+  font-size: 11px;
+  transition: all 0.3s ease;
+}
+.footer-connect a:hover{
+  scale: 1.1;
+}
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer-contact p{
+  margin-top: 8px;
+
+}
+
+.footer-bottom{
+  padding-top: 25px;
+  border-top: 1px solid #222;
+  display: flex;
+  justify-content: space-between;
+  color: #4d4d4d;
+  font-family: monospace;
+  font-size: 10px;
+}
