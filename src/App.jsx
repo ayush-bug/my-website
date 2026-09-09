@@ -47,7 +47,7 @@ function App() {
           <br />
           <p>Mainly focused on Full Stack Web Dev &amp; DSA in C++</p>
 
-          <a href="#work" className="scroll">
+          <a href="#about" className="scroll">
             scroll to explore
           </a>
         </div>
