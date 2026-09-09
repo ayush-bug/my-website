@@ -8,7 +8,11 @@
   It is a dark themed web site with interactive animation and react components.
  # live preview
  [![Live Preview](https://img.shields.io/badge/Live%20Preview-Visit%20Website-blue?style=for-the-badge)](https://ayush-bug.github.io/my-website/)
-
+## better know this before you visit my portfolio 
+ - try to hold and move the idcard or lanyard componet
+ - move cursor around about me
+ - hover the skills
+ 
 ## Language used
  - Javascript
  - React
